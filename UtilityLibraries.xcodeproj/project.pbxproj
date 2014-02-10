@@ -21,6 +21,7 @@
 		55877D2118A942E8001176B1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 55877D0318A942E8001176B1 /* UIKit.framework */; };
 		55877D2918A942E8001176B1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 55877D2718A942E8001176B1 /* InfoPlist.strings */; };
 		55877D2B18A942E8001176B1 /* UtilityLibrariesTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 55877D2A18A942E8001176B1 /* UtilityLibrariesTests.m */; };
+		55877D3818A94BDB001176B1 /* Utility.m in Sources */ = {isa = PBXBuildFile; fileRef = 55877D3718A94BDB001176B1 /* Utility.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		55877D2618A942E8001176B1 /* UtilityLibrariesTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "UtilityLibrariesTests-Info.plist"; sourceTree = "<group>"; };
 		55877D2818A942E8001176B1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		55877D2A18A942E8001176B1 /* UtilityLibrariesTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UtilityLibrariesTests.m; sourceTree = "<group>"; };
+		55877D3618A94BDB001176B1 /* Utility.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Utility.h; sourceTree = "<group>"; };
+		55877D3718A94BDB001176B1 /* Utility.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utility.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -112,6 +115,7 @@
 		55877D0518A942E8001176B1 /* UtilityLibraries */ = {
 			isa = PBXGroup;
 			children = (
+				55877D3418A94BBC001176B1 /* Libs */,
 				55877D0E18A942E8001176B1 /* AppDelegate.h */,
 				55877D0F18A942E8001176B1 /* AppDelegate.m */,
 				55877D1118A942E8001176B1 /* Main.storyboard */,
@@ -150,6 +154,23 @@
 				55877D2718A942E8001176B1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		55877D3418A94BBC001176B1 /* Libs */ = {
+			isa = PBXGroup;
+			children = (
+				55877D3518A94BBC001176B1 /* Utility */,
+			);
+			path = Libs;
+			sourceTree = "<group>";
+		};
+		55877D3518A94BBC001176B1 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				55877D3618A94BDB001176B1 /* Utility.h */,
+				55877D3718A94BDB001176B1 /* Utility.m */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -249,6 +270,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55877D3818A94BDB001176B1 /* Utility.m in Sources */,
 				55877D1618A942E8001176B1 /* ViewController.m in Sources */,
 				55877D1018A942E8001176B1 /* AppDelegate.m in Sources */,
 				55877D0C18A942E8001176B1 /* main.m in Sources */,
